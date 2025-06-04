@@ -33,7 +33,7 @@ app.use(
 app.use(bodyParser.json({ limit: '10mb' }));
 
 app.use('/barcodes', require('./routes/generatedBarcodes'));
-mongoose.connect('mongodb+srv://balmukundoptico:lets12help@job-connector.exb7v.mongodb.net/barcodeDemo', {
+mongoose.connect('mongodb+srv://Optico:optico2025@barcode.p15eoss.mongodb.net/barcodeDev', {
   // mongoose.connect('mongodb://localhost:27017/barcodeDemo', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
