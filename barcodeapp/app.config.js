@@ -89,7 +89,7 @@ module.exports = {
         foregroundImage: './assets/adaptive-icon.png',
         backgroundColor: '#ffffff',
       },
-      package: 'com.jay123y.barcodedevaws',
+      package: 'com.opticosolution.devbarcodeaws',
       permissions: [
         'CAMERA',
         'INTERNET',
@@ -110,9 +110,9 @@ module.exports = {
       'expo-barcode-scanner',
       withCleartextTraffic, // 👈 Your custom plugin
     ],
-      "extra": {
+       "extra": {
       "eas": {
-        "projectId": "5e9ea8fe-03ab-4211-8cc7-f2ddca11de07"
+        "projectId": "7628b925-7da2-4fac-9f01-79001c8f9cf0"
       }
     },
     newArchEnabled: true,
