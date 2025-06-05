@@ -14,7 +14,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 import debounce from 'lodash.debounce';
 
 // const BASE_URL = 'http://localhost:5000';
-const BASE_URL = 'http://3.82.246.165:5000';
+const BASE_URL = 'http://35.175.71.43:5001';
 
 
 const { width } = Dimensions.get('window');
@@ -32,7 +32,7 @@ const ButtonText = ({ children, style }) => (
         paddingHorizontal: 2,
         fontSize: 14,
         lineHeight: 16,
-        flexWrap: 'wrap',
+        flexWrap: 'wrap', 
         flexShrink: 1,
         width: '100%',
         overflow: 'hidden',

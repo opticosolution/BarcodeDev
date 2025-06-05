@@ -16,7 +16,8 @@ import { MaterialIcons } from '@expo/vector-icons';
 // Backend API base URL
 
 // const BASE_URL = 'http://localhost:5000';
-const BASE_URL = 'http://3.82.246.165:5000';
+// const BASE_URL = 'http://52.90.177.1:5001';
+const BASE_URL = 'http://35.175.71.43:5001';
 
 
 export default function UserDashboard({ navigation }) {
