@@ -13,6 +13,8 @@ const { JSDOM } = require('jsdom');
 const { jsPDF } = require('jspdf');
 const bodyParser = require('body-parser');
 const { Buffer } = require('buffer');
+// const path = require('path');
+
 // const BarcodeRange = require('./models/BarcodeRanges'); 
 // const PreGeneratedBarcode = require('./models/Barcode');
 
@@ -30,10 +32,18 @@ app.use(
   })
 );
 
-app.use(bodyParser.json({ limit: '10mb' }));
+// app.use(bodyParser.json({ limit: '10mb' }));
+// app.use(express.static(path.join(__dirname, "barcodeapp/dist")));
+// app.get('*', (_, res) => {
+//   res.sendFile(path.resolve(__dirname, "barcodeapp", "dist", "index.html"));
+// });
 
 app.use('/barcodes', require('./routes/generatedBarcodes'));
+<<<<<<< HEAD
   mongoose.connect('mongodb+srv://Optico:optico2025@barcode.p15eoss.mongodb.net/BarcodeDev', {
+=======
+mongoose.connect(process.env.MONGODB_URI, {
+>>>>>>> f6282ed (aws change)
   // mongoose.connect('mongodb://localhost:27017/barcodeDemo', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -1465,6 +1475,15 @@ app.put('/settings/barcode-range', authenticateToken, checkRole(['admin', 'super
   }
 });
 
+<<<<<<< HEAD
+=======
+
+
+app.get('/',(req,res)=>{
+  res.send("dev server running")
+})
+
+>>>>>>> f6282ed (aws change)
 // Start the server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
