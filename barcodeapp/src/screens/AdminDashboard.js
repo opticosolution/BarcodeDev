@@ -15,8 +15,8 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 
 // const BASE_URL = 'http://localhost:5000';
-const BASE_URL = 'http://35.175.71.43:5001';
-
+// const BASE_URL = 'http://35.175.71.43:5001';
+const BASE_URL='https://barcodedev.onrender.com'
 
 const { width } = Dimensions.get('window');
 const isWeb = Platform.OS === 'web';

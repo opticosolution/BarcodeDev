@@ -15,7 +15,9 @@ import * as Sharing from 'expo-sharing';
 import { Buffer } from 'buffer';
 
 // const BASE_URL = 'http://localhost:5000';
-const BASE_URL = 'http://35.175.71.43:5001';
+// const BASE_URL = 'http://35.175.71.43:5001';
+const BASE_URL='https://barcodedev.onrender.com'
+
 
 const isWeb = Platform.OS === 'web';
 
